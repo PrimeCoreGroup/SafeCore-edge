@@ -1,0 +1,7 @@
+# Credenciales locales del nodo
+SafeCoreEdge/config.h
+
+# Entregables locales que no forman parte del firmware
+output/
+tmp/
+*.zip
