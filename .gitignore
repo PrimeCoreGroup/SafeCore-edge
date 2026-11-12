@@ -1,7 +1,16 @@
-# Credenciales locales del nodo
-SafeCoreEdge/config.h
+# Credenciales y datos locales
+.env
+firmware/SafeCoreEdgeGateway/config.h
+data/
 
-# Entregables locales que no forman parte del firmware
+# Entorno y archivos generados de Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+tests/tmp/
+
+# Guías y paquetes de distribución locales
 output/
 tmp/
 *.zip
